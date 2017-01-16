@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html ng-app="website">
-<head>
-    <meta charset="utf-8">
-    <title>AngularJS Guess number</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+<html ng-app="GuessApp">
+    <head>
+        <meta charset="utf-8">
+        <title>AngularJS Guess number</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body ng-controller="MainCtrl">
-</div>
+    <body>
+        <header>
+            <h1 class="headtitle">Guess the number 🤔</h1>
+            <p>Guess the number by typing it down below :</p>
+        </header>
 
+        <div class="container" ng-controller="MainCtrl">
+            <form class="" action="index.html" >
 
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-animate.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+              <input type="number" name="" ng-model='inputUser' placeholder="Enter your number here"></input>
+              <button type="submit" name="button" ng-submit='submit'>ENTER</button>
+            </form>
+        </div>
 
-<script src="js/app.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+        <script src="js/app.js"></script>
 
-</body>
+    </body>
 </html>
