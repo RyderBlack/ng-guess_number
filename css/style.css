@@ -7,11 +7,11 @@ body {
     text-align: center;
     color: #fff;
     border: .5px solid black;
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.35);
     font-size: 60px;
 }
 
@@ -28,6 +28,7 @@ header>p {
     width: 70%;
     flex-direction: column;
     border: 2px solid white;
+    background-color: white;
 }
 
 form {
@@ -53,6 +54,7 @@ button {
     border: 2px solid white;
     font-size: 18px;
 }
+
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
     display: none !important;
